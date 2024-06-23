@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-section {
+  width: 100vw;
+  height: 84px;
+  background-color: #192140;
+}
+
+.navigation {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: "Intern";
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+}
+
+.nav-signUp {
+  display: flex;
+  justify-content: space-between;
+  width: 164px;
+}/*# sourceMappingURL=main.css.map */

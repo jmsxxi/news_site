@@ -1,0 +1,43 @@
+@use 'variables.scss';
+@use 'colors.scss';
+@use 'mixins.scss';
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-section{
+width: 100vw;
+height: 84px;
+background-color: colors.$header-background-color;
+
+}
+
+.navigation{
+margin-left: 80px;
+margin-right: 80px;
+font-family: 'Intern';
+align-items: center;
+@include mixins.flex();
+color: colors.$default-color;
+
+
+}
+
+.navigation-bar {
+    @include mixins.flex();
+    width: 600px;
+
+}
+
+.nav-menu{
+    @include mixins.flex();
+    width: 390px;
+    
+}
+
+.nav-signUp {
+    @include mixins.flex();
+    width: 164px;
+}
