@@ -9,8 +9,12 @@
     margin: 0px;
 }
 
+
+// ------------- Navigation Bar------------//
+
+
 .header-section{
-width: 100vw;
+width: 100%;
 height: 84px;
 background-color: colors.$header-background-color;
 font-family: "Inter", sans-serif;
@@ -42,5 +46,82 @@ color: colors.$default-color;
 
 .nav-signUp {
     @include mixins.flex();
+<<<<<<< HEAD
+    gap: 20px;
+    width: 150px;
+}
+
+///---------- body ----------//
+
+.main-body{
+    height: 1000px;
+    width: 100%;
+    background-color: colors.$default-color;
+}
+
+.blog-section{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 450px 450px 450px;
+    margin: 100px 100px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.blog1{
+    grid-column: 1/1;
+    grid-row: 1/2;
+    @include mixins.blog-info();
+}
+
+.blog2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    @include mixins.blog-info($background-img: url('../images/Image-2.png'));
+}
+
+.blog3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    @include mixins.blog-info($background-img: url('../images/Image-3.png'));
+}
+
+.blog4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    @include mixins.blog-info($background-img: url('../images/Image-4.png'));
+}
+
+.blog5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    @include mixins.blog-info($background-img: url('../images/Image-5.png'));
+}
+
+.blog6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    @include mixins.blog-info($background-img: url('../images/Image-6.png'));
+}
+
+.blog7{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    @include mixins.blog-info($background-img: url("../images/Image-7.png"));
+
+}
+
+.blog8{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    @include mixins.blog-info($background-img: url('../images/Image-8.png'));
+}
+
+.blog9{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    @include mixins.blog-info($background-img: url('../images/Image-9.png'));
+=======
     width: 164px;
+>>>>>>> main
 }
