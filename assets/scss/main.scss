@@ -46,7 +46,6 @@ color: colors.$default-color;
 
 .nav-signUp {
     @include mixins.flex();
-<<<<<<< HEAD
     gap: 20px;
     width: 150px;
 }
@@ -121,7 +120,6 @@ color: colors.$default-color;
     grid-column: 3/4;
     grid-row: 3/4;
     @include mixins.blog-info($background-img: url('../images/Image-9.png'));
-=======
+
     width: 164px;
->>>>>>> main
 }
