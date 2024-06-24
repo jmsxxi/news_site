@@ -12,3 +12,8 @@
     width: 450px;
     height: 450px;
 }
+
+@mixin display-flex($flex-direction: column){
+    display: flex;
+    flex-direction: $flex-direction;
+}
