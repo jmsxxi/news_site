@@ -1,4 +1,5 @@
 
+@use 'colors.scss';
 
 @mixin flex($justify: space-between){
     display: flex;
@@ -11,9 +12,27 @@
     background-size: 100% 100%;
     width: 500px;
     height: 450px;
+    position: relative;
 }
 
 @mixin display-flex($flex-direction: column){
     display: flex;
     flex-direction: $flex-direction;
+}
+
+@mixin blog-box-design{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    background-color: colors.$blog-background;
+    h2{
+        font-weight: 700;
+    }
+
+    .blog-otherInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
