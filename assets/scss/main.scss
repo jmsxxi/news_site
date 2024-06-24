@@ -109,7 +109,7 @@ font-optical-sizing: auto;
 
    
 
-///---------- body ----------//
+///-------------------- body ----------//
 
 .main-body{
     height: 100% vh;
@@ -180,6 +180,65 @@ font-optical-sizing: auto;
     grid-row: 3/4;
     @include mixins.blog-info($background-img: url('../images/Image-9.png'));
 }
+
+.blog-container{
+    position: relative;
+}
+
+ .blog1-information{
+   @include mixins.blog-box-design();
+ }
+
+ .blog2-information{
+    @include mixins.blog-box-design();
+ }
+
+ .blog3-information{
+    @include mixins.blog-box-design();
+ }
+ .blog4-information{
+    @include mixins.blog-box-design();
+ }
+ .blog5-information{
+    @include mixins.blog-box-design();
+ }
+ .blog6-information{
+    @include mixins.blog-box-design();
+ }
+ .blog7-information{
+    @include mixins.blog-box-design();
+ }
+ .blog8-information{
+    @include mixins.blog-box-design();
+ }
+ .blog9-information{
+    @include mixins.blog-box-design();
+ }
+
+ .blog-otherInfo{
+    color: colors.$blog-info-text-color;
+    font-weight: 500;
+    font-size: 12;
+ }
+
+ .delete-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //--------------------------------Footer------------------------- --//
 

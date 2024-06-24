@@ -107,6 +107,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog2 {
@@ -116,6 +117,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog3 {
@@ -125,6 +127,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog4 {
@@ -134,6 +137,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog5 {
@@ -143,6 +147,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog6 {
@@ -152,6 +157,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog7 {
@@ -161,6 +167,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog8 {
@@ -170,6 +177,7 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
 }
 
 .blog9 {
@@ -179,6 +187,167 @@
   background-size: 100% 100%;
   width: 500px;
   height: 450px;
+  position: relative;
+}
+
+.blog-container {
+  position: relative;
+}
+
+.blog1-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog1-information h2 {
+  font-weight: 700;
+}
+.blog1-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog2-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog2-information h2 {
+  font-weight: 700;
+}
+.blog2-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog3-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog3-information h2 {
+  font-weight: 700;
+}
+.blog3-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog4-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog4-information h2 {
+  font-weight: 700;
+}
+.blog4-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog5-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog5-information h2 {
+  font-weight: 700;
+}
+.blog5-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog6-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog6-information h2 {
+  font-weight: 700;
+}
+.blog6-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog7-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog7-information h2 {
+  font-weight: 700;
+}
+.blog7-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog8-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog8-information h2 {
+  font-weight: 700;
+}
+.blog8-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog9-information {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: #F8F9FC;
+}
+.blog9-information h2 {
+  font-weight: 700;
+}
+.blog9-information .blog-otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-otherInfo {
+  color: #C0BFCF;
+  font-weight: 500;
+  font-size: 12;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .footer-section {
