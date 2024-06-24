@@ -22,32 +22,24 @@ background-color: colors.$header-background-color;
 font-optical-sizing: auto;
 
 
+}
+
 .navigation{
-max-width: 100%;
-margin: auto;
-@include mixins.flex();
-
-padding: 30px 80px 0px 80px;
-font-weight: 500;
-font-size: 20px;
-}
-
-}
+    max-width: 100%;
+    margin: auto;
+    @include mixins.flex();
+    
+    padding: 30px 80px 0px 80px;
+    font-weight: 500;
+    font-size: 20px;
+    }
+    
 
 .navigation-bar {
     @include mixins.flex();
     width: 1100px;
     justify-content: space-between;
-    a:link{
-        text-decoration: none;
-        color: colors.$default-color;
-    }
-    a:hover{
-        color: colors.$active-link;
-    }
-    a:active{
-        color: colors.$active-link;
-    }
+
 
 }
 
@@ -56,14 +48,66 @@ font-size: 20px;
     @include mixins.flex();
     width: 600px;
     gap: 30px;
+    color: colors.$default-color;
+    a:link{
+        text-decoration: none;
+        color: colors.$default-color;
+
+    }
+    a:hover{
+        color: colors.$active-link;
+        text-decoration: underline;
+       
+    }
+    a:active{
+        color: colors.$active-link;
+        text-decoration: underline;
+        
+    }
+    a:visited{
+        text-decoration: none;
+
+    }
+    a:hover{
+        color: colors.$active-link;
+        text-decoration: underline;
+       
+    }
 }
 
 .nav-signUp {
     @include mixins.flex();
-    gap: 20px;
-    width: 200px;
+    gap: 5px;
+    width: 300px;
     padding-right: 20px;
+    color: colors.$default-color;
+    .signUp:hover{
+        background-color: transparent;
+        color: colors.$button-hover;
+        border: 2px solid colors.$button-hover; 
+        
+    }
+
+    .signUp:active{
+        color: colors.$button-tex-color;
+        background-color: colors.$header-background-color;
+        width: 150px;
+        border-color: colors.$button-hover; 
+        border-radius: 250px;
+    
+    }
 }
+
+.signUp{
+    color: colors.$button-tex-color;
+    background-color: colors.$header-background-color;
+    width: 150px;
+    border-color: transparent;
+    border-radius: 250px;
+
+}
+
+   
 
 ///---------- body ----------//
 
@@ -147,7 +191,7 @@ font-size: 20px;
 
 .footer-container {
 @include mixins.display-flex();
-padding: 100px;
+padding: 100px 100px 0px 100px;
 gap: 70px;
 color: colors.$default-color;
 }
